@@ -1,0 +1,742 @@
+/* Open sans font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* Ubuntu font */
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Bold.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Light.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Medium.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Regular.woff);
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubuntu;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Start header part styling */
+.navbar {
+  margin: 40px 80px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hotel {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.logo {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.signin {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.navbox {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.a1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.a2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  border-radius: 35px;
+  padding: 10px 30px;
+}
+/* End header part styling */
+/* Start main part styling */
+/* Start mainbox1 part styling */
+.mainbox1 {
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.mbox1_1 {
+  height: 254px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mbox1_1 > :first-child {
+  height: 254px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+.mbox1_1 > :first-child > h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0.5px;
+}
+.mbox1_1 > :first-child > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 476px;
+  letter-spacing: 0.5px;
+}
+
+.form1 {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.form1 > :first-child {
+  background-color: #fafafa;
+  height: 56px;
+  width: 218px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form1 > :last-child {
+  height: 56px;
+  width: 218px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fafafa;
+}
+.form1 > :first-child > input {
+  height: 56px;
+  width: 218px;
+  border: none;
+  outline: none;
+  background-color: #fafafa;
+}
+
+.form1 > :last-child > input {
+  height: 56px;
+  width: 218px;
+  border: none;
+  outline: none;
+  background-color: #fafafa;
+}
+
+.form2 {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.form2 > input {
+  width: 100%;
+  height: 56px;
+  border: none;
+  outline: none;
+  background-color: #fafafa;
+}
+input::placeholder {
+  background-color: #fafafa;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: black;
+}
+.searchicon {
+  background-color: #3771c8;
+  padding: 20px;
+  border-radius: 8px;
+}
+form {
+  height: 254px;
+  width: 500px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.image1 {
+  width: 956px;
+  height: 590px;
+  background-image: url(./img/Image1.png);
+  border-radius: 16px;
+}
+.image2 {
+  width: 308px;
+  height: 287px;
+  background-image: url(./img/Image2.png);
+  border-radius: 16px;
+}
+.image3 {
+  width: 308px;
+  height: 287px;
+  background-image: url(./img/Image3.png);
+  border-radius: 16px;
+}
+.mbox1_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.mbox1_2 > :last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.image1 > h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 184px;
+  margin-top: 479px;
+}
+/* End mainbox1 part styling */
+/* Start mainbox2 part styling */
+main {
+  margin: 40px 115px;
+}
+
+.mainbox2 {
+  height: 483px;
+  margin-top: 40px;
+}
+.mbox2_1 > :last-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mbox2_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.mbox2_1 > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.mbox2_1 > :last-child > p {
+  width: 605px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.mbox2_1 > :last-child > a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #3771c8;
+}
+.mbox2_1 > :last-child > a:hover {
+  text-decoration: underline #f9d15c 3px;
+}
+.mboxn {
+  width: 308px;
+  height: 320px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  box-shadow: 5px 5px 10px gray;
+}
+.mboxn > img {
+  width: 68px;
+  height: 68px;
+}
+.mboxn > :last-child > h2 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.mboxn > :last-child > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #666666;
+}
+.mboxn > :last-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.mbox2_2 {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+/* End mainbox2 part styling */
+/* Start mainbox3 part styling */
+.mainbox3 {
+  width: 100%;
+  margin: 120px 20px 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.mbox3_1 {
+  width: 100%;
+  height: 520px;
+  background-image: url(./img/mbox3.png);
+  border-radius: 16px;
+}
+.mbox3_2 > :first-child {
+  width: 419px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.mbox3_2 > :nth-child(2) {
+  width: 586px;
+  height: 112px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.mbox3_2 > :nth-child(3) {
+  width: 586px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.mbox3_2 > :last-child {
+  padding: 16px 32px;
+  background-color: #3771c8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.mbox3_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.mbox3n > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.mbox3n > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.mbox3n {
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+/* End mainbox3 part styling */
+/* Start mainbox4 part styling */
+.mainbox4 {
+  width: 1110px;
+  height: 100px;
+  margin-left: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.mainbox4 > img {
+  width: 150px;
+  height: 100px;
+}
+/* End mainbox4 part styling */
+/* Start mainbox5 part styling */
+.mainbox5 {
+  width: 100%;
+  margin: 120px 20px 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mbox5_1 {
+  width: 640px;
+  height: 400px;
+  width: 640px;
+  border-radius: 12px 0px 0px 12px;
+  background-image: url(./img/mbox5_1.png);
+}
+.mbox5_2 {
+  width: 640px;
+  height: 400px;
+  background-color: #f9d15c;
+  padding: 43px 71px;
+  border-radius: 0px 12px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.mbox5_2 > :first-child {
+  width: 100%px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.mbox5_2 > :last-child {
+  width: 100%px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+.mbox5_2 > :first-child > img {
+  width: 62px;
+  height: 64px;
+  border-radius: 97px;
+}
+.mbox5_2 > :first-child > a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.mbox5_2 > :last-child > p {
+  width: 498px;
+  height: 144px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 36px;
+}
+/* End mainbox5 part styling */
+/* Start mainbox6 part styling */
+.mainbox6 {
+  width: 100%px;
+  margin: 120px 80px 120px 80px;
+}
+.mbox6_1 > :first-child {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.mbox6_1 > :nth-child(2) {
+  width: 409px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+.mbox6a > :first-child > a {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px gray;
+}
+.mbox6a > :first-child > a:hover {
+  border: 1px solid black;
+}
+.mbox6a > :last-child > a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #3771c8;
+}
+.mbox6a > :last-child > a:hover {
+  text-decoration: underline #f9d15c 3px;
+}
+.mbox6a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mbox6_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.mbox6a > :first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.mbox6_2 {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.mbox6_2_1 {
+  width: 411px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 23px;
+  border-radius: 16px;
+  border: 0.5px solid gray;
+}
+.mbox6_2_11 {
+  width: 411px;
+  height: 320px;
+  background-image: url(./img/mbox6_2_1.png);
+}
+.mbox6_2_12 {
+  width: 411px;
+  height: 320px;
+  background-image: url(./img/mbox6_2_2.png);
+}
+.mbox6_2_13 {
+  width: 411px;
+  height: 320px;
+  background-image: url(./img/mbox6_2_3.png);
+}
+
+.mbox6_2_1 > :nth-child(2) > h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.mbox6_2_1 > :nth-child(2) > p {
+  width: 338px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.mbox6_2_1 > :nth-child(2) {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mbox6_2_1 > :last-child {
+  width: 411px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dollar {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3771c8;
+}
+.mbox6_2_1 > :last-child > button {
+  padding: 5px 10px;
+  background-color: #3771c8;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+/* End mainbox6 part styling */
+/* Start mainbox7 part styling */
+.mainbox7 {
+  width: 100%px;
+  margin: 120px 80px 120px 80px;
+  background-color: #eaeceb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mbox7_1 {
+  padding: 60px 122px 66px 74px;
+  background-color: #eaeceb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 92px;
+  border-radius: 16px;
+}
+.mbox7_1 > :first-child > h1 {
+  width: 700px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.mbox7_1 > :first-child > p {
+  width: 536px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.mbox7_1 > :first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.mbox7_1 > :last-child > input {
+  padding: 23px 180px 23px 26px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+.mbox7_1 > :last-child > input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+.mbox7_1 > :last-child > button {
+  padding: 23px 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: #3771c8;
+  color: white;
+}
+.mbox7_1 > :last-child {
+  width: 533px;
+  background-color: white;
+  border-radius: 50px;
+}
+/* End mainbox7 part styling */
+/* Start footer part styling */
+.fmainbox {
+  width: 1072px;
+  height: 210px;
+  margin: 120px 186px 63px 192px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 165px;
+}
+.fmbox1 {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.fmbox1 > :first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.htel {
+  padding-left: 10px;
+}
+.fmbox1 > :nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.fmbox1 > :last-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.fmbox2 > :first-child {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.fmbox2 > :last-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.fmbox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+/* End footer part styling */
